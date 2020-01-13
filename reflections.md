@@ -16,5 +16,7 @@ by 00:08 there's a high pitch hanging in the background that feels like gentle p
 
 the scratching at 00:15 feels like a dentist drilling under anesthesia...
 
+01:04 someone blows out a candle or tries to whistle (hwha)
+
 
 
