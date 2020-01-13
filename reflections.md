@@ -30,3 +30,4 @@ My outer ears (just the inner folds not the outer edge) feel like there's a low 
 
 Listening 3 times in a row leaves pink noise playing in my ears and tension in my left TMJ
 
+On playing with the instrument, the score provided is much more broadly instructional in how to use the instrument generally as opposed to documenting the specific manipulations required to reproduce the recording... I'm not too unhappy about not having replicated the high pitch in the background ;)  All of the pictured component blocks are present now that I've moved to the MacOS environment.
