@@ -11,3 +11,10 @@
 > The bottom highlighted lfo-1 controls the triggering of granulator freezes and texture cv.
 > 
 > Play with the blend knob on texture synth to define how clean the signal out is.
+
+by 00:08 there's a high pitch hanging in the background that feels like gentle pressure just in front of my right ear - the sensation resolves into relaxation of the TMJ at 1:24-6
+
+the scratching at 00:15 feels like a dentist drilling under anesthesia...
+
+
+
