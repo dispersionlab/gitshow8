@@ -16,9 +16,15 @@ by 00:08 there's a high pitch hanging in the background that feels like gentle p
 
 the scratching at 00:15 feels like a dentist drilling under anesthesia...
 
+around 00:30 I'm starting to wonder if the sound that began at 00:28 is morse code... it seems to run through most of the recording
 
-
-01:04 [auditory hallucination] someone blows out a candle or tries to whistle (hwha)
+01:02 [auditory hallucination] someone blows out a candle or tries to whistle (hwha)
 
 01:15 [AH] felt tip marker (the cheap kind, not a Sharpie) writing on a flip chart in a shipping container dissolves into crackling faint morse code through the radio at 01:20
+
+After repeated listing, I'm starting to hear the high pitched sratching and scraping noises from the recording when I run my fingers or adjust my sleeves.
+
+My outer ears (just the inner folds not the outer edge) feel like there's a low level electric current running through them.
+
+Listening 3 times in a row leaves pink noise playing in my ears and tension in my left TMJ
 
