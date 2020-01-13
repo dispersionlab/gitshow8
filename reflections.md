@@ -22,7 +22,9 @@ around 00:30 I'm starting to wonder if the sound that began at 00:28 is morse co
 
 01:15 [AH] felt tip marker (the cheap kind, not a Sharpie) writing on a flip chart in a shipping container dissolves into crackling faint morse code through the radio at 01:20
 
-After repeated listing, I'm starting to hear the high pitched sratching and scraping noises from the recording when I run my fingers or adjust my sleeves.
+Visual Imagery triggered is generally militaristic, definitly giving a mission briefing using a flip chart in a shipping container, morse code from a weak radio signal, intercepting dial-up satellite communications...change the channel to a humming bird in a vise 
+
+After repeated listing, I'm starting to hear the high pitched sratching and scraping noises from the recording when I rub my fingers or adjust my sleeves.
 
 My outer ears (just the inner folds not the outer edge) feel like there's a low level electric current running through them.
 
