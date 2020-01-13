@@ -16,7 +16,9 @@ by 00:08 there's a high pitch hanging in the background that feels like gentle p
 
 the scratching at 00:15 feels like a dentist drilling under anesthesia...
 
-01:04 someone blows out a candle or tries to whistle (hwha)
 
 
+01:04 [auditory hallucination] someone blows out a candle or tries to whistle (hwha)
+
+01:15 [AH] felt tip marker (the cheap kind, not a Sharpie) writing on a flip chart in a shipping container dissolves into crackling faint morse code through the radio at 01:20
 
