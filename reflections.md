@@ -36,3 +36,5 @@ On playing with the instrument, the score provided is much more broadly instruct
 *******
 
 If all I have the ability to percieve is low frequencies then the recording is almost entirely imperceptible.  There is a single detectible pulse at 00:58 and possiblly faintly perceptible vibratons from 00:42-54 and 01:09-12.
+
+Having the recording and being forced with this challenge led me to develop a Max patch that I can use to analyze the frequencies visually to try to understand what the piece is doing.  Inspired by Christine Sun Kim's description of the physical symptoms she experienced after working with feedback, I'm inspired to research more about sound's impact on human bodies beyond it's auditory perception and interpretation.
