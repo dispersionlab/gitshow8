@@ -1,5 +1,7 @@
 ## Score:
 
+Thank you to the previous author for giving me a real challenge right away - the prompt to ask for accommodations right up front was so helpful and inspiring - please accept my appologies for cursing at you last week.
+
 Play with rhythmic generation through setting up content for the granulator to freeze and generate texture (given a square vave control freeze trigger) 
 
 <img src="https://i.imgur.com/83i5zwp.png">
