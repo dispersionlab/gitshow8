@@ -13,11 +13,11 @@
         },
         {
           "id": 1,
-          "value": 0.323854834
+          "value": 1.00691998
         },
         {
           "id": 2,
-          "value": 0.669074655
+          "value": 0.970302045
         },
         {
           "id": 3,
@@ -52,7 +52,7 @@
       ],
       "data": {
         "format": "wav",
-        "path": "/Users/raechelkula/Desktop/recording.wav",
+        "path": "/Users/raechelkula/Documents/GitHub/gitshow8/recording.wav",
         "incrementPath": false,
         "sampleRate": 44100,
         "depth": 16,
@@ -128,23 +128,23 @@
         },
         {
           "id": 2,
-          "value": -1.9519943
+          "value": 10.0
         },
         {
           "id": 3,
-          "value": 0.200999931
+          "value": 0.0
         },
         {
           "id": 4,
-          "value": 0.099000074
+          "value": 0.0
         },
         {
           "id": 5,
-          "value": 0.160430223
+          "value": 0.00999999978
         },
         {
           "id": 6,
-          "value": 0.103500031
+          "value": 0.0
         }
       ],
       "leftModuleId": 24,
@@ -362,6 +362,14 @@
       "outputId": 2,
       "inputModuleId": 22,
       "inputId": 3,
+      "color": "#0986ad"
+    },
+    {
+      "id": 412,
+      "outputModuleId": 26,
+      "outputId": 0,
+      "inputModuleId": 2,
+      "inputId": 1,
       "color": "#0986ad"
     }
   ]
