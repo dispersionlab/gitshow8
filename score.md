@@ -7,9 +7,8 @@
 
 ![](https://content.api.news/v3/images/bin/1568ca340da13f1990a16a352f5ad13a)
 
+![Glen Gould's chair --- ](http://www.colineatock.com/uploads/7/9/8/3/7983649/1885017_orig.jpg)
 
-
-blowing raspberries, creaky old chair
 
 ## Knobs
 it's fun to have fun but you have to know how...
