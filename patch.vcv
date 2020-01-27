@@ -9,27 +9,29 @@
       "params": [
         {
           "id": 0,
-          "value": 0.405000061
+          "value": 0.467999578
         },
         {
           "id": 1,
-          "value": 0.0
+          "value": 1.31946242
         },
         {
           "id": 2,
-          "value": 0.0
+          "value": 0.920653045
         },
         {
           "id": 3,
-          "value": 0.0
+          "value": 1.0521754
         },
         {
           "id": 4,
           "value": 0.0
         }
       ],
+      "leftModuleId": 22,
+      "rightModuleId": 7,
       "pos": [
-        18,
+        62,
         0
       ]
     },
@@ -49,16 +51,17 @@
         }
       ],
       "leftModuleId": 1,
+      "rightModuleId": 2,
       "data": {
         "format": "wav",
-        "path": "/Users/raechelkula/Documents/GitHub/gitshow8/recording.wav",
+        "path": "/Users/hoveidar/Desktop/recording.wav",
         "incrementPath": false,
         "sampleRate": 44100,
         "depth": 16,
         "bitRate": 320000
       },
       "pos": [
-        10,
+        57,
         0
       ]
     },
@@ -107,7 +110,7 @@
         "external": 0
       },
       "pos": [
-        33,
+        72,
         1
       ]
     },
@@ -119,37 +122,37 @@
       "params": [
         {
           "id": 0,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 1,
-          "value": 0.0
+          "value": 1.0
         },
         {
           "id": 2,
-          "value": 3.95199013
+          "value": 1.54898739
         },
         {
           "id": 3,
-          "value": 0.441000015
+          "value": 0.221999303
         },
         {
           "id": 4,
-          "value": 0.397500008
+          "value": 0.647999942
         },
         {
           "id": 5,
-          "value": 0.00999999978
+          "value": 0.218739897
         },
         {
           "id": 6,
-          "value": 0.0
+          "value": 0.865500093
         }
       ],
       "leftModuleId": 4,
       "rightModuleId": 17,
       "pos": [
-        8,
+        47,
         1
       ]
     },
@@ -159,11 +162,11 @@
       "version": "1.1.6",
       "model": "AudioInterface",
       "params": [],
+      "leftModuleId": 30,
       "rightModuleId": 22,
       "data": {
         "audio": {
-          "driver": 5,
-          "deviceName": "Apple Inc.: Built-in Output",
+          "driver": 6,
           "offset": 0,
           "maxChannels": 8,
           "sampleRate": 44100,
@@ -171,7 +174,7 @@
         }
       },
       "pos": [
-        0,
+        47,
         0
       ]
     },
@@ -214,12 +217,13 @@
           "value": 0.0
         }
       ],
+      "leftModuleId": 2,
       "data": {
         "lissajous": 0,
         "external": 0
       },
       "pos": [
-        33,
+        72,
         0
       ]
     },
@@ -231,7 +235,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.0
+          "value": 0.117000036
         },
         {
           "id": 1,
@@ -239,19 +243,19 @@
         },
         {
           "id": 2,
-          "value": 0.212999821
+          "value": 0.374999702
         },
         {
           "id": 3,
-          "value": 0.671999753
+          "value": 0.955500722
         },
         {
           "id": 4,
-          "value": 0.0
+          "value": 0.414000124
         },
         {
           "id": 5,
-          "value": 0.0
+          "value": 0.306000054
         },
         {
           "id": 6,
@@ -285,7 +289,7 @@
         "script": "\t// knobs 0-5 in code correspond to knobs 1-6 on the prototype faceplate\n\t// inputs 0-5 in code correspond to inputs 1-6 on the prototype faceplate\n\t// outputs 0-5 in code correspond to outputs 1-6 on the prototype faceplate\n\nconfig.frameDivider = 1\nconfig.bufferSize = 1\n\nvar phase = 0\nfunction process(block) {\n\t// set pitch  according to knob 0\n\t// Knob ranges from -5 to 5 octaves\n\tvar pitch = block.knobs[0] * 10 - 5\n\t// modulate pitch using input 0 as cv\n\t// Input follows 1V/oct standard\n\tpitch += block.inputs[0][0]\t\t\n\n\t// The relationship between 1V/oct pitch and frequency is `freq = 2^pitch`.\n\n\t// https://vcvrack.com/manual/VoltageStandards.html#pitch-and-frequencies\n\tvar freq = 111.6256\n\tfreq += freq * Math.pow(2, pitch)\n\n\t// manipulate the buffer size of the this module\n\tbufSizeKnob = Math.round(block.knobs[1] * 120)\n\tblock.bufferSize += bufSizeKnob\n\tif (block.inputs[1][0] === 0){\n\t\t// ignore input, use only knob value\n\t} else {\n\t\t// modulate the bufferSize by the sum of input 1 and knob 1\n\t\tblock.bufferSize = block.inputs[1][0] + bufSizeKnob\n\t}\n\n\t// manipulate the frame division\n\tframeDivKnob = Math.round(block.knobs[2] * 32)\n\tframeDivider = config.frameDivider + frameDivKnob\n\n\tif (block.inputs[2][0] === 0){\n\t\t// ignore input 2, use only knob  value\n\t} else {\n\t\t// modulate the frameDivision by the sum of input 2 and knob 2\n\t\tframeDivider = frameDivider + Math.round(block.inputs[2][0] * 4)\n\t}\n\n\t// I *think* block.sampleTime corresponds to the sample-length? anyway, manipulating this results in some satisfying glitch\n\tblock.sampleTime += block.knobs[3] * 10\n\n\tif (block.inputs[3][0] !== 0){\n\t\t// ignore cv input, use only knob 3 value\n\t} else {\n\t\t// modulate sampleTime by adding input 3 as cv\n\t\tblock.sampleTime = block.sampleTime + (block.inputs[3][0] / 22050)\n\n\t\tif (block.inputs[4][0] !== 0){\n\t\t\t// if a cable is connected to input 4, add that value to sampleTime\n\t\t\tblock.sampleTime += block.inputs[4][0] / 100\n\t\t}\n\t}\n\n\t// Set all samples in output buffer\n\tvar deltaPhase = frameDivider * block.sampleTime * freq\n\tfor (var i = 0; i < block.bufferSize; i++) {\n\t\t// Accumulate phase\n\t\tphase += deltaPhase\n\t\t// Wrap phase around range [0, 1]\n\t\tphase %= 1\n\t\t// Convert phase to sine output\n\t\tblock.outputs[0][i] = Math.sin(2 * Math.PI * phase) * 5\n\t}\n}\n"
       },
       "pos": [
-        18,
+        57,
         1
       ]
     },
@@ -297,15 +301,15 @@
       "params": [
         {
           "id": 0,
-          "value": 0.48999989
+          "value": 0.856001198
         },
         {
           "id": 1,
-          "value": 0.255000055
+          "value": 0.31799981
         },
         {
           "id": 2,
-          "value": 0.243999943
+          "value": 0.585994899
         },
         {
           "id": 3,
@@ -318,8 +322,188 @@
       ],
       "rightModuleId": 26,
       "pos": [
-        0,
+        39,
         1
+      ]
+    },
+    {
+      "id": 27,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "MIDIToCVInterface",
+      "params": [],
+      "rightModuleId": 28,
+      "data": {
+        "channels": 1,
+        "polyMode": 0,
+        "clockDivision": 24,
+        "lastPitch": 8192,
+        "lastMod": 0,
+        "midi": {
+          "driver": -11,
+          "deviceName": "QWERTY keyboard (US)",
+          "channel": -1
+        }
+      },
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 28,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "VCO",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 0.323998451
+        },
+        {
+          "id": 3,
+          "value": 0.00599992508
+        },
+        {
+          "id": 4,
+          "value": 0.484499961
+        },
+        {
+          "id": 5,
+          "value": 0.494119763
+        },
+        {
+          "id": 6,
+          "value": 0.390000045
+        }
+      ],
+      "leftModuleId": 27,
+      "rightModuleId": 31,
+      "pos": [
+        8,
+        0
+      ]
+    },
+    {
+      "id": 29,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "ADSR",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.300499737
+        },
+        {
+          "id": 1,
+          "value": 0.5
+        },
+        {
+          "id": 2,
+          "value": 0.5
+        },
+        {
+          "id": 3,
+          "value": 0.5
+        }
+      ],
+      "leftModuleId": 31,
+      "rightModuleId": 30,
+      "pos": [
+        26,
+        0
+      ]
+    },
+    {
+      "id": 30,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Scope",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 14.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 29,
+      "rightModuleId": 1,
+      "data": {
+        "lissajous": 0,
+        "external": 0
+      },
+      "pos": [
+        34,
+        0
+      ]
+    },
+    {
+      "id": 31,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "VCF",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.594498932
+        },
+        {
+          "id": 1,
+          "value": 0.5
+        },
+        {
+          "id": 2,
+          "value": 0.289499909
+        },
+        {
+          "id": 3,
+          "value": 0.882000089
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 28,
+      "rightModuleId": 29,
+      "pos": [
+        18,
+        0
       ]
     }
   ],
@@ -419,6 +603,70 @@
       "inputModuleId": 4,
       "inputId": 3,
       "color": "#0986ad"
+    },
+    {
+      "id": 425,
+      "outputModuleId": 27,
+      "outputId": 0,
+      "inputModuleId": 28,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 426,
+      "outputModuleId": 27,
+      "outputId": 1,
+      "inputModuleId": 29,
+      "inputId": 4,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 427,
+      "outputModuleId": 28,
+      "outputId": 2,
+      "inputModuleId": 31,
+      "inputId": 3,
+      "color": "#c91847"
+    },
+    {
+      "id": 429,
+      "outputModuleId": 31,
+      "outputId": 0,
+      "inputModuleId": 2,
+      "inputId": 3,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 430,
+      "outputModuleId": 27,
+      "outputId": 6,
+      "inputModuleId": 29,
+      "inputId": 5,
+      "color": "#c91847"
+    },
+    {
+      "id": 428,
+      "outputModuleId": 29,
+      "outputId": 0,
+      "inputModuleId": 31,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 431,
+      "outputModuleId": 29,
+      "outputId": 0,
+      "inputModuleId": 2,
+      "inputId": 7,
+      "color": "#0986ad"
+    },
+    {
+      "id": 432,
+      "outputModuleId": 2,
+      "outputId": 3,
+      "inputModuleId": 30,
+      "inputId": 0,
+      "color": "#c9b70e"
     }
   ]
 }
