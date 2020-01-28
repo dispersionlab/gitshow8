@@ -9,7 +9,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.467999578
+          "value": 0.5849998
         },
         {
           "id": 1,
@@ -126,11 +126,11 @@
         },
         {
           "id": 1,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 2,
-          "value": 1.54898739
+          "value": 1.60298586
         },
         {
           "id": 3,
@@ -167,6 +167,7 @@
       "data": {
         "audio": {
           "driver": 6,
+          "deviceName": "Speakers (Conexant SmartAudio HD)",
           "offset": 0,
           "maxChannels": 8,
           "sampleRate": 44100,
@@ -309,7 +310,7 @@
         },
         {
           "id": 2,
-          "value": 0.585994899
+          "value": 0.621995926
         },
         {
           "id": 3,
