@@ -45,8 +45,6 @@ Why is there a love story theme? Is it because the woman's partner is an outlaw 
 I enjoyed!
 Playing with the MIDI keyboard is great fun.
 
-Moving forward, I think I'll keep the MIDI and remove everything else, or at least move away from this score just because I'd like to have more noise but also probably experimenting with samples again.
-
 > 
 > Notes played:
 > 
@@ -96,3 +94,6 @@ Moving forward, I think I'll keep the MIDI and remove everything else, or at lea
 > 3
 > w
 
+Perhaps, it would have been interesting to see these "notes" laid out on a sheet music or something that resembles it.
+
+Moving forward, I think I'll keep the MIDI and remove everything else, or at least move away from this score just because I'd like to have more noise but also probably experimenting with samples again.
