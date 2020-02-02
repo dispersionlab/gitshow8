@@ -10,7 +10,7 @@ I appreciate the story line for this piece. I definitely was following it as I w
 > 
 > MIDI CV module generates midi notes by pressing their corresponding keys on the keyboard.
 > 
-> ![Alt Image Text](https://imgur.com/wBqIZg6.png "midi keyboard")
+> ![Alt Image Text](https://imgur.com/wBqIZg6.png)
 > 
 > 
 > VCO-1 can be used as an oscillator which can generate sine, triangle, saw and square waveforms. Here, we used its saw output.
@@ -24,7 +24,7 @@ I appreciate the story line for this piece. I definitely was following it as I w
 > **Recording Process:**
 > 
 > At first, to generate the helicopter's song you should set the Res knob in the VCF to a little elow the middle point. and try to slightly increase the frequency on LFO-1. 
-> 
+
 > By alternating between 0 and 180 degrees in LFO-1, you can generate the shoe sound.
 
 I didn't hear the footsteps sounds at first, but I realized that it was actually the clipping of the generated noise rather than the noise itself.
@@ -39,6 +39,10 @@ I think what's missing in the recording is the sound representing the outlaws so
 Why is there a love story theme? Is it because the woman's partner is an outlaw and the outlaw is running away? Is the love story song a sad song because the couple can't be together?
 
 > Enjoy!
+
+I did enjoy!
+Playing with the MIDI keyboard is great fun.
+
 > 
 > Notes played:
 > 
