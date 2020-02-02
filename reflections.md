@@ -25,6 +25,8 @@ I appreciate the story line for this piece. I definitely was following it as I w
 > 
 > At first, to generate the helicopter's song you should set the Res knob in the VCF to a little elow the middle point. and try to slightly increase the frequency on LFO-1. 
 
+I thought it wasn't working, but it turns out that there are two VCFs.
+
 > By alternating between 0 and 180 degrees in LFO-1, you can generate the shoe sound.
 
 I didn't hear the footsteps sounds at first, but I realized that it was actually the clipping of the generated noise rather than the noise itself.
@@ -40,8 +42,10 @@ Why is there a love story theme? Is it because the woman's partner is an outlaw 
 
 > Enjoy!
 
-I did enjoy!
+I enjoyed!
 Playing with the MIDI keyboard is great fun.
+
+Moving forward, I think I'll keep the MIDI and remove everything else, or at least move away from this score just because I'd like to have more noise but also probably experimenting with samples again.
 
 > 
 > Notes played:
@@ -91,3 +95,4 @@ Playing with the MIDI keyboard is great fun.
 > y
 > 3
 > w
+
