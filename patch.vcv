@@ -43,7 +43,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.811999381
+          "value": 0.520999193
         },
         {
           "id": 1,
@@ -76,7 +76,8 @@
       "data": {
         "audio": {
           "driver": 6,
-          "offset": 1076289956,
+          "deviceName": "Speakers (Realtek(R) Audio)",
+          "offset": 0,
           "maxChannels": 8,
           "sampleRate": 44100,
           "blockSize": 256
@@ -259,9 +260,10 @@
           "value": 0.0
         }
       ],
+      "leftModuleId": 67,
       "rightModuleId": 56,
       "pos": [
-        33,
+        32,
         1
       ]
     },
@@ -319,7 +321,7 @@
       "params": [
         {
           "id": 0,
-          "value": 7.63500214
+          "value": 8.35500336
         },
         {
           "id": 1,
@@ -540,7 +542,7 @@
         "blendMode": 2
       },
       "pos": [
-        51,
+        50,
         1
       ]
     },
@@ -577,7 +579,7 @@
         "shape": 0
       },
       "pos": [
-        41,
+        40,
         1
       ]
     },
@@ -589,19 +591,19 @@
       "params": [
         {
           "id": 0,
-          "value": 1.0
+          "value": 0.772000074
         },
         {
           "id": 1,
-          "value": 0.710999966
+          "value": 0.80400002
         },
         {
           "id": 2,
-          "value": 0.613500059
+          "value": 1.0
         },
         {
           "id": 3,
-          "value": 0.557999969
+          "value": 1.0
         },
         {
           "id": 4,
@@ -609,6 +611,7 @@
         }
       ],
       "leftModuleId": 34,
+      "rightModuleId": 31,
       "pos": [
         24,
         1
@@ -623,7 +626,7 @@
       "leftModuleId": 53,
       "rightModuleId": 69,
       "pos": [
-        69,
+        68,
         1
       ]
     },
@@ -634,9 +637,9 @@
       "model": "Blank",
       "params": [],
       "leftModuleId": 68,
-      "width": 105.0,
+      "width": 120.0,
       "pos": [
-        81,
+        80,
         1
       ]
     }
@@ -921,6 +924,22 @@
       "inputModuleId": 67,
       "inputId": 0,
       "color": "#0986ad"
+    },
+    {
+      "id": 699,
+      "outputModuleId": 67,
+      "outputId": 2,
+      "inputModuleId": 28,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 700,
+      "outputModuleId": 28,
+      "outputId": 0,
+      "inputModuleId": 67,
+      "inputId": 5,
+      "color": "#c9b70e"
     }
   ]
 }
