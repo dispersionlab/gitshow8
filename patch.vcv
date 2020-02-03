@@ -130,7 +130,7 @@
         },
         {
           "id": 2,
-          "value": 1.54898739
+          "value": 0.414981693
         },
         {
           "id": 3,
@@ -162,11 +162,11 @@
       "version": "1.1.6",
       "model": "AudioInterface",
       "params": [],
-      "leftModuleId": 30,
       "rightModuleId": 22,
       "data": {
         "audio": {
           "driver": 6,
+          "deviceName": "Speakers (Realtek(R) Audio)",
           "offset": 0,
           "maxChannels": 8,
           "sampleRate": 44100,
@@ -309,7 +309,7 @@
         },
         {
           "id": 2,
-          "value": 0.585994899
+          "value": 0.506494641
         },
         {
           "id": 3,
@@ -416,59 +416,8 @@
         }
       ],
       "leftModuleId": 31,
-      "rightModuleId": 30,
       "pos": [
         26,
-        0
-      ]
-    },
-    {
-      "id": 30,
-      "plugin": "Fundamental",
-      "version": "1.4.0",
-      "model": "Scope",
-      "params": [
-        {
-          "id": 0,
-          "value": 0.0
-        },
-        {
-          "id": 1,
-          "value": 0.0
-        },
-        {
-          "id": 2,
-          "value": 0.0
-        },
-        {
-          "id": 3,
-          "value": 0.0
-        },
-        {
-          "id": 4,
-          "value": 14.0
-        },
-        {
-          "id": 5,
-          "value": 0.0
-        },
-        {
-          "id": 6,
-          "value": 0.0
-        },
-        {
-          "id": 7,
-          "value": 0.0
-        }
-      ],
-      "leftModuleId": 29,
-      "rightModuleId": 1,
-      "data": {
-        "lissajous": 0,
-        "external": 0
-      },
-      "pos": [
-        34,
         0
       ]
     },
@@ -504,6 +453,94 @@
       "pos": [
         18,
         0
+      ]
+    },
+    {
+      "id": 32,
+      "plugin": "cf",
+      "version": "1.1.1",
+      "model": "PLAYER",
+      "params": [
+        {
+          "id": 0,
+          "value": 5.26500034
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "lastPath": "C:\\dispersion-lab\\gitshow8\\samples\\noise1.wav",
+        "oscstate": 0
+      },
+      "pos": [
+        11,
+        1
+      ]
+    },
+    {
+      "id": 34,
+      "plugin": "cf",
+      "version": "1.1.1",
+      "model": "PLAYER",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "lastPath": "C:\\dispersion-lab\\gitshow8\\samples\\noise2.wav",
+        "oscstate": 0
+      },
+      "pos": [
+        24,
+        1
       ]
     }
   ],
@@ -547,22 +584,6 @@
       "inputModuleId": 22,
       "inputId": 3,
       "color": "#0986ad"
-    },
-    {
-      "id": 414,
-      "outputModuleId": 4,
-      "outputId": 1,
-      "inputModuleId": 2,
-      "inputId": 1,
-      "color": "#0c8e15"
-    },
-    {
-      "id": 415,
-      "outputModuleId": 4,
-      "outputId": 0,
-      "inputModuleId": 2,
-      "inputId": 2,
-      "color": "#c91847"
     },
     {
       "id": 416,
@@ -621,36 +642,12 @@
       "color": "#0c8e15"
     },
     {
-      "id": 427,
-      "outputModuleId": 28,
-      "outputId": 2,
-      "inputModuleId": 31,
-      "inputId": 3,
-      "color": "#c91847"
-    },
-    {
-      "id": 429,
-      "outputModuleId": 31,
-      "outputId": 0,
-      "inputModuleId": 2,
-      "inputId": 3,
-      "color": "#0c8e15"
-    },
-    {
       "id": 430,
       "outputModuleId": 27,
       "outputId": 6,
       "inputModuleId": 29,
       "inputId": 5,
       "color": "#c91847"
-    },
-    {
-      "id": 428,
-      "outputModuleId": 29,
-      "outputId": 0,
-      "inputModuleId": 31,
-      "inputId": 0,
-      "color": "#0986ad"
     },
     {
       "id": 431,
@@ -661,12 +658,44 @@
       "color": "#0986ad"
     },
     {
-      "id": 432,
-      "outputModuleId": 2,
-      "outputId": 3,
-      "inputModuleId": 30,
+      "id": 428,
+      "outputModuleId": 29,
+      "outputId": 0,
+      "inputModuleId": 31,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 429,
+      "outputModuleId": 31,
+      "outputId": 0,
+      "inputModuleId": 2,
+      "inputId": 3,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 439,
+      "outputModuleId": 27,
+      "outputId": 1,
+      "inputModuleId": 32,
       "inputId": 0,
       "color": "#c9b70e"
+    },
+    {
+      "id": 440,
+      "outputModuleId": 32,
+      "outputId": 0,
+      "inputModuleId": 2,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 441,
+      "outputModuleId": 32,
+      "outputId": 1,
+      "inputModuleId": 2,
+      "inputId": 2,
+      "color": "#0986ad"
     }
   ]
 }
