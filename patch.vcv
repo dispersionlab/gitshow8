@@ -9,7 +9,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.467999578
+          "value": 0.636000097
         },
         {
           "id": 1,
@@ -31,7 +31,7 @@
       "leftModuleId": 1,
       "rightModuleId": 22,
       "pos": [
-        62,
+        60,
         0
       ]
     },
@@ -61,7 +61,7 @@
         "bitRate": 320000
       },
       "pos": [
-        72,
+        70,
         0
       ]
     },
@@ -76,15 +76,14 @@
       "data": {
         "audio": {
           "driver": 6,
-          "deviceName": "Speakers (Realtek(R) Audio)",
-          "offset": 0,
+          "offset": 1076289956,
           "maxChannels": 8,
           "sampleRate": 44100,
           "blockSize": 256
         }
       },
       "pos": [
-        52,
+        50,
         0
       ]
     },
@@ -133,7 +132,7 @@
         "external": 0
       },
       "pos": [
-        77,
+        75,
         0
       ]
     },
@@ -157,7 +156,7 @@
         }
       },
       "pos": [
-        2,
+        0,
         0
       ]
     },
@@ -199,7 +198,7 @@
       "leftModuleId": 27,
       "rightModuleId": 29,
       "pos": [
-        10,
+        8,
         0
       ]
     },
@@ -229,7 +228,7 @@
       "leftModuleId": 28,
       "rightModuleId": 38,
       "pos": [
-        20,
+        18,
         0
       ]
     },
@@ -262,7 +261,7 @@
       ],
       "rightModuleId": 56,
       "pos": [
-        45,
+        33,
         1
       ]
     },
@@ -308,7 +307,7 @@
         "oscstate": 0
       },
       "pos": [
-        8,
+        6,
         1
       ]
     },
@@ -354,7 +353,7 @@
         "oscstate": 0
       },
       "pos": [
-        17,
+        15,
         1
       ]
     },
@@ -386,7 +385,7 @@
         "onstate": 1
       },
       "pos": [
-        2,
+        0,
         1
       ]
     },
@@ -420,94 +419,8 @@
       "leftModuleId": 29,
       "rightModuleId": 45,
       "pos": [
-        28,
+        26,
         0
-      ]
-    },
-    {
-      "id": 41,
-      "plugin": "Blamsoft-XFXDistortionPack",
-      "version": "1.0.0",
-      "model": "Blamsoft-XFXOverdrive",
-      "params": [
-        {
-          "id": 0,
-          "value": 1.0
-        },
-        {
-          "id": 1,
-          "value": 0.666499972
-        },
-        {
-          "id": 2,
-          "value": 0.5
-        },
-        {
-          "id": 3,
-          "value": 1.0
-        },
-        {
-          "id": 4,
-          "value": 0.75
-        }
-      ],
-      "bypass": true,
-      "pos": [
-        18,
-        2
-      ]
-    },
-    {
-      "id": 40,
-      "plugin": "Blamsoft-XFXDistortionPack",
-      "version": "1.0.0",
-      "model": "Blamsoft-XFXTube",
-      "params": [
-        {
-          "id": 0,
-          "value": 1.0
-        },
-        {
-          "id": 1,
-          "value": 0.693499982
-        },
-        {
-          "id": 2,
-          "value": 0.765500069
-        },
-        {
-          "id": 3,
-          "value": 0.288499892
-        },
-        {
-          "id": 4,
-          "value": 0.338000089
-        },
-        {
-          "id": 5,
-          "value": 1.0
-        },
-        {
-          "id": 6,
-          "value": 0.576999843
-        },
-        {
-          "id": 7,
-          "value": 0.0
-        },
-        {
-          "id": 8,
-          "value": 0.523499906
-        },
-        {
-          "id": 9,
-          "value": 3.0
-        }
-      ],
-      "bypass": true,
-      "pos": [
-        0,
-        2
       ]
     },
     {
@@ -556,7 +469,7 @@
       "leftModuleId": 38,
       "rightModuleId": 1,
       "pos": [
-        38,
+        36,
         0
       ]
     },
@@ -620,13 +533,14 @@
         }
       ],
       "leftModuleId": 56,
+      "rightModuleId": 68,
       "data": {
         "playback": 0,
         "quality": 0,
         "blendMode": 2
       },
       "pos": [
-        63,
+        51,
         1
       ]
     },
@@ -663,7 +577,7 @@
         "shape": 0
       },
       "pos": [
-        53,
+        41,
         1
       ]
     },
@@ -696,7 +610,33 @@
       ],
       "leftModuleId": 34,
       "pos": [
-        26,
+        24,
+        1
+      ]
+    },
+    {
+      "id": 68,
+      "plugin": "Bidoo",
+      "version": "1.1.8",
+      "model": "vOId",
+      "params": [],
+      "leftModuleId": 53,
+      "rightModuleId": 69,
+      "pos": [
+        69,
+        1
+      ]
+    },
+    {
+      "id": 69,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Blank",
+      "params": [],
+      "leftModuleId": 68,
+      "width": 105.0,
+      "pos": [
+        81,
         1
       ]
     }
