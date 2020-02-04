@@ -31,8 +31,8 @@
       "leftModuleId": 1,
       "rightModuleId": 22,
       "pos": [
-        60,
-        0
+        72,
+        1
       ]
     },
     {
@@ -43,7 +43,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.520999193
+          "value": 1.00399935
         },
         {
           "id": 1,
@@ -61,8 +61,8 @@
         "bitRate": 320000
       },
       "pos": [
-        70,
-        0
+        82,
+        1
       ]
     },
     {
@@ -84,8 +84,8 @@
         }
       },
       "pos": [
-        50,
-        0
+        62,
+        1
       ]
     },
     {
@@ -128,13 +128,14 @@
         }
       ],
       "leftModuleId": 22,
+      "rightModuleId": 68,
       "data": {
         "lissajous": 0,
         "external": 0
       },
       "pos": [
-        75,
-        0
+        87,
+        1
       ]
     },
     {
@@ -143,6 +144,7 @@
       "version": "1.1.6",
       "model": "MIDIToCVInterface",
       "params": [],
+      "leftModuleId": 72,
       "rightModuleId": 28,
       "data": {
         "channels": 1,
@@ -157,8 +159,8 @@
         }
       },
       "pos": [
-        0,
-        0
+        12,
+        1
       ]
     },
     {
@@ -199,8 +201,8 @@
       "leftModuleId": 27,
       "rightModuleId": 29,
       "pos": [
-        8,
-        0
+        20,
+        1
       ]
     },
     {
@@ -229,8 +231,8 @@
       "leftModuleId": 28,
       "rightModuleId": 38,
       "pos": [
-        18,
-        0
+        30,
+        1
       ]
     },
     {
@@ -263,8 +265,8 @@
       "leftModuleId": 67,
       "rightModuleId": 56,
       "pos": [
-        32,
-        1
+        44,
+        2
       ]
     },
     {
@@ -309,8 +311,8 @@
         "oscstate": 0
       },
       "pos": [
-        6,
-        1
+        18,
+        2
       ]
     },
     {
@@ -355,8 +357,8 @@
         "oscstate": 0
       },
       "pos": [
-        15,
-        1
+        27,
+        2
       ]
     },
     {
@@ -382,13 +384,14 @@
           "value": 0.0
         }
       ],
+      "leftModuleId": 73,
       "rightModuleId": 32,
       "data": {
         "onstate": 1
       },
       "pos": [
-        0,
-        1
+        12,
+        2
       ]
     },
     {
@@ -421,8 +424,8 @@
       "leftModuleId": 29,
       "rightModuleId": 45,
       "pos": [
-        26,
-        0
+        38,
+        1
       ]
     },
     {
@@ -471,8 +474,8 @@
       "leftModuleId": 38,
       "rightModuleId": 1,
       "pos": [
-        36,
-        0
+        48,
+        1
       ]
     },
     {
@@ -542,8 +545,8 @@
         "blendMode": 2
       },
       "pos": [
-        50,
-        1
+        62,
+        2
       ]
     },
     {
@@ -579,8 +582,8 @@
         "shape": 0
       },
       "pos": [
-        40,
-        1
+        52,
+        2
       ]
     },
     {
@@ -613,8 +616,8 @@
       "leftModuleId": 34,
       "rightModuleId": 31,
       "pos": [
-        24,
-        1
+        36,
+        2
       ]
     },
     {
@@ -624,9 +627,10 @@
       "model": "vOId",
       "params": [],
       "bypass": true,
+      "leftModuleId": 7,
       "pos": [
-        90,
-        0
+        100,
+        1
       ]
     },
     {
@@ -639,8 +643,8 @@
       "rightModuleId": 70,
       "width": 60.0,
       "pos": [
-        68,
-        1
+        80,
+        2
       ]
     },
     {
@@ -650,10 +654,76 @@
       "model": "Notes",
       "params": [],
       "leftModuleId": 69,
-      "text": "1) Set XFX Reverb to 0ms delay \n 2) Press '3' and 'V' together\n- hold for 5s\n3) Add 'H'\n- hold for 5s\n4) Release for 5s\n5) Set XFX Reverb to 250ms delay \n6) Press 'T' and 'U' in a 5 over 4 rhythmic pattern\n\n  \n",
+      "rightModuleId": 71,
+      "text": "1) Set XFX Reverb to 0ms delay \n 2) Press '3' and 'V' together\n- hold for 5 counts\n3) Add 'H'\n- hold for 5 counts\n4) Release for 5 counts\n5) Set XFX Reverb to 250ms delay\n - hold for 5  counts\n6) Press 'T' and 'U' in a 5 over 4 rhythmic pattern (5 times)\n- hold for 5 counts\n7) Hold '4' and '5' for 2 counts\n- hold for 5 counts  \n8) Hold '2' and '3' for 5 counts then  fade out over 10 counts\n\n  \n",
       "pos": [
-        72,
+        84,
+        2
+      ]
+    },
+    {
+      "id": 71,
+      "plugin": "Bidoo",
+      "version": "1.1.8",
+      "model": "vOId",
+      "params": [],
+      "bypass": true,
+      "leftModuleId": 70,
+      "pos": [
+        100,
+        2
+      ]
+    },
+    {
+      "id": 72,
+      "plugin": "Bidoo",
+      "version": "1.1.8",
+      "model": "vOId",
+      "params": [],
+      "bypass": true,
+      "rightModuleId": 27,
+      "pos": [
+        0,
         1
+      ]
+    },
+    {
+      "id": 73,
+      "plugin": "Bidoo",
+      "version": "1.1.8",
+      "model": "vOId",
+      "params": [],
+      "bypass": true,
+      "rightModuleId": 35,
+      "pos": [
+        0,
+        2
+      ]
+    },
+    {
+      "id": 75,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Blank",
+      "params": [],
+      "bypass": true,
+      "width": 1680.0,
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 76,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Blank",
+      "params": [],
+      "bypass": true,
+      "width": 1680.0,
+      "pos": [
+        0,
+        3
       ]
     }
   ],
