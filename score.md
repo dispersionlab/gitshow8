@@ -1,80 +1,15 @@
-##Score Composition
+## Score
 
-There is a short story behind the piece which I will describe here:
-
-At first there is a sound of a helicoptor fading in and after that you can hear the sound of a woman's shoes on a wooden surface. She slowly stops and a motorcycle approaches and accelerates. Suddenly, you hear the sound of police cars chasing some outlaws and at the end, the love story music is played and the story ends.
-
-**Added Modules:**
-
-MIDI CV module generates midi notes by pressing their corresponding keys on the keyboard.
-
-![Alt Image Text](https://imgur.com/wBqIZg6.png "midi keyboard")
-
-
-VCO-1 can be used as an oscillator which can generate sine, triangle, saw and square waveforms. Here, we used its saw output.
-
-ADSR is used as an Attack-Decay-Sustain-Release generator, which can open and shut down a contour as a response to a gate input.
-
-
-
-
-
-**Recording Process:**
-
-At first, to generate the helicopter's song you should set the Res knob in the VCF to a little elow the middle point. and try to slightly increase the frequency on LFO-1. 
-
-By alternating between 0 and 180 degrees in LFO-1, you can generate the shoe sound.
-Again, back to the Frequency knob, increase it to make the sound of the motorcycle.
-Set the frequency to the middle point and then increase the RES knob to generate the police alarm sound.
-
-Then return RES to the middle point, and start playing with keyboard to generate the MIDI notes of Love Story song.
-
-Enjoy!
-
-Notes played:
-
-7
-w
-w
-7
-7
-w
-w
-7
-7
-w
-3
-w
-q
-q
-q
-y
-y
-q
-q
-y
-y
-q
-w
-q
-j
-j
-j
-t
-t
-j
-j
-t
-t
-j
-q
-j
-n
-n
-n
-5
-5
-t
-y
-3
-w
+**1)** Set XFX Reverb to 0ms delay 
+**2)** Press '3' and 'V' together
+-- hold for 5 counts
+**3)** Add 'H'
+-- hold for 5 counts
+**4)** Release for 5 counts
+**5)** Set XFX Reverb to 250ms delay
+-- hold for 5  counts
+**6)** Press 'T' and 'U' in a 5 over 4 rhythmic pattern (5 times)
+-- hold for 5 counts
+**7)** Hold '4' and '5' for 2 counts
+-- hold for 5 counts  
+**8)** Hold '2' and '3' for 5 counts then  fade out over 10 counts
