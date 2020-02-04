@@ -43,7 +43,7 @@
       "params": [
         {
           "id": 0,
-          "value": 1.00399935
+          "value": 0.0179987904
         },
         {
           "id": 1,
@@ -54,7 +54,7 @@
       "rightModuleId": 7,
       "data": {
         "format": "wav",
-        "path": "/Users/hoveidar/Desktop/recording.wav",
+        "path": "C:\\dispersion-lab\\gitshow8/recording.wav",
         "incrementPath": false,
         "sampleRate": 44100,
         "depth": 16,
@@ -456,7 +456,7 @@
         },
         {
           "id": 5,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 6,

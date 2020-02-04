@@ -1,8 +1,7 @@
 ## Score
 
 **1)** Set XFX Reverb to 0ms delay 
-**2)** Press '3' and 'V' together
--- hold for 5 counts
+**2)** Press random keys for 2s then hold '3' and 'V' together for 5 counts
 **3)** Add 'H'
 -- hold for 5 counts
 **4)** Release for 5 counts
