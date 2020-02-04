@@ -9,7 +9,7 @@
       "params": [
         {
           "id": 0,
-          "value": 0.636000097
+          "value": 0.678000271
         },
         {
           "id": 1,
@@ -437,23 +437,23 @@
         },
         {
           "id": 1,
-          "value": 0.54099983
+          "value": 1.0
         },
         {
           "id": 2,
-          "value": 0.472500056
+          "value": 0.334000021
         },
         {
           "id": 3,
-          "value": 0.667999923
+          "value": 1.0
         },
         {
           "id": 4,
-          "value": 0.98900032
+          "value": 1.0
         },
         {
           "id": 5,
-          "value": 0.407500058
+          "value": 1.0
         },
         {
           "id": 6,
@@ -465,7 +465,7 @@
         },
         {
           "id": 8,
-          "value": 0.776499987
+          "value": 1.0
         }
       ],
       "leftModuleId": 38,
@@ -535,7 +535,7 @@
         }
       ],
       "leftModuleId": 56,
-      "rightModuleId": 68,
+      "rightModuleId": 69,
       "data": {
         "playback": 0,
         "quality": 0,
@@ -623,11 +623,9 @@
       "version": "1.1.8",
       "model": "vOId",
       "params": [],
-      "leftModuleId": 53,
-      "rightModuleId": 69,
       "pos": [
-        68,
-        1
+        90,
+        0
       ]
     },
     {
@@ -636,10 +634,24 @@
       "version": "1.1.6",
       "model": "Blank",
       "params": [],
-      "leftModuleId": 68,
-      "width": 120.0,
+      "leftModuleId": 53,
+      "rightModuleId": 70,
+      "width": 60.0,
       "pos": [
-        80,
+        68,
+        1
+      ]
+    },
+    {
+      "id": 70,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 69,
+      "text": "1) Set XFX Reverb to 0ms delay \n 2) Press '3' and 'V' together\n- hold for 5s\n3) Add 'H'\n- hold for 5s\n4) Release for 5s\n5) Set XFX Reverb to 250ms delay \n6) Press 'T' and 'U' in a 5 over 4 rhythmic pattern\n\n  \n",
+      "pos": [
+        72,
         1
       ]
     }
